@@ -1,15 +1,35 @@
-/* ----------------- Base/Global (universal usage for all pages) usage CSS ----------------- */
+/* ----------------- Base/Global (universal usage for all pages) ----------------- */
 
 body {
   margin: 0;
-  font-family: "KBQuietStories", Times, serif;
-  background: url("../images/red-purple-gradient-back.png") center / cover no-repeat fixed;
+  font-family: Arial, "Times New Roman", Times, serif;
   color: #fff;
 }
+
+/* ----------------- Page-specific backgrounds ----------------- */
+
+#about-page {
+  background: url("../images/red-purple-gradient-back.png") center / cover no-repeat fixed;
+}
+
+#work-page {
+  background: url("../images/lightpurp-blue-gradient-back.png") center / cover no-repeat fixed;
+}
+
+#skills-page {
+  background: url("../images/orange-gradient-back.png") center / cover no-repeat fixed;
+}
+
+#leadership-page {
+  background: url("../images/blue-purple-gradient-back.png") center / cover no-repeat fixed;
+}
+
+/* ----------------- Text styling ----------------- */
 
 p {
   font-size: 1.2em;
   margin: 0 0 1em;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 
 h1, h2 {
@@ -19,7 +39,7 @@ h1, h2 {
 }
 
 li {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, "Times New Roman", Times, serif;
   margin-bottom: 0.5em;
 }
 
@@ -31,8 +51,7 @@ header, section, main {
   padding: 16px;
 }
 
-
-/* ----------------- Navigation CSS ----------------- */
+/* ----------------- Navigation ----------------- */
 
 nav {
   background-color: #333;
@@ -56,39 +75,13 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Arial, "Times New Roman", Times, serif;
 }
 
 nav li a:hover {
   background-color: #ddd;
   color: #000;
 }
-
-
-/* ----------------- About Page (Index) CSS ----------------- */
-
-/* Your index uses <main id="about-info"> */
-#about-info {
-  /* keep this if you still want a different image on the About page */
-  background-image: url("../images/orange-gradient-back.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-/* Center the personal/contact text on index */
-#personal-and-contact p {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-}
-
-#personal-and-contact h1,
-#personal-and-contact h2 {
-  text-align: center;
-  font-weight: 700;
-  text-decoration: underline;
-}
-
 
 /* ----------------- Center ALL page content (like Work History) ----------------- */
 
@@ -100,14 +93,14 @@ nav li a:hover {
 #languages,
 #hobbies_interests,
 #leadership,
-#volunteerwork {
+#volunteerwork,
+#personalinfo,
+#personal-and-contact {
   text-align: center;
 }
 
+/* ----------------- List styling ----------------- */
 
-/* ----------------- List styling CSS ----------------- */
-
-/* Center and clean up the lists */
 #education ol,
 #workhistory ol,
 #certificates ol,
@@ -122,11 +115,10 @@ nav li a:hover {
   margin: 0 auto;
 }
 
-/* Make smaller bullet text */
+/* Smaller bullet text */
 ul li {
   font-size: small;
 }
-
 
 /* ----------------- Header Alignments ----------------- */
 
