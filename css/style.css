@@ -9,7 +9,7 @@ body {
 /* ----------------- Page-specific backgrounds ----------------- */
 
 #about-page {
-  background: url("../images/green-blue-gradient-back.png") center / cover no-repeat fixed;
+  background: url(".../images/green-blue-gradient-back.png") center / cover no-repeat fixed;
 }
 
 #work-page {
