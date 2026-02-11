@@ -119,7 +119,7 @@ ul li {
 }
 
 /* Index section styling */
-#main-about {
+#about-info {
 	background-image: url("../images/orange-gradient-back.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -128,7 +128,7 @@ ul li {
 	flex: 1;
 }
 
-#main-about h1, p {
+#about-info h1, p {
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 1em;
