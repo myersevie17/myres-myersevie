@@ -64,7 +64,7 @@ nav li a:hover {
 }
 
 
-/* ----------------- Previous Work/Education CSS ----------------- */
+/* ----------------- About Page (Index) CSS ----------------- */
 
 /* Your index uses <main id="about-info"> */
 #about-info {
@@ -90,9 +90,28 @@ nav li a:hover {
 }
 
 
-/* ----------------- List styling CSS /* ----------------- */
+/* ----------------- Center ALL page content (like Work History) ----------------- */
 
-/* These pages use ULs (not OLs) in your HTML */
+#education,
+#workhistory,
+#certificates,
+#awards,
+#skills,
+#languages,
+#hobbies_interests,
+#leadership,
+#volunteerwork {
+  text-align: center;
+}
+
+
+/* ----------------- List styling CSS ----------------- */
+
+/* Center and clean up the lists */
+#education ol,
+#workhistory ol,
+#certificates ol,
+#awards ol,
 #leadership ul,
 #volunteerwork ul,
 #skills ul,
@@ -100,15 +119,7 @@ nav li a:hover {
 #hobbies_interests ul {
   list-style-position: inside;
   padding: 0;
-  margin: 0;
-}
-
-/* These sections use OLs in your HTML */
-#certificates ol,
-#awards ol {
-  list-style-position: inside;
-  padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 /* Make smaller bullet text */
@@ -124,4 +135,3 @@ section h2 {
   text-align: center;
   text-decoration: underline;
 }
-
