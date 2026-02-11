@@ -135,3 +135,17 @@ ul li {
 	font-family: "KBQuietStories", arial, sans-serif;
 	background-color: white;
 }
+
+/* Centering the text under the headers in the Previous-Work-and-Eduction.html file under Education and Work History */
+#education,
+#workhistory {
+	text-align: center;
+}
+
+/* Centering the actual list under the headers */
+#education ol,
+#workhistory ol {
+	list-style-postion: inside;
+	padding: 0;
+}
+
