@@ -51,7 +51,7 @@ nav li a:hover {
 }
 
 /* Resume Body CSS */
-#about-info {
+#Previous-Work-and-Eduction {
   background-image: url("../images/red-purple-gradient-back.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -136,6 +136,12 @@ ul li {
 	background-color: white;
 }
 
+/*Centering text underneath the headers */
+#education,
+#workhistory {
+	text-align: center;
+}
+
 /* Centering the actual list under the headers */
 #education ol,
 #workhistory ol {
@@ -143,3 +149,4 @@ ul li {
 	padding: 0;
 }
 
+/* Bolding the 
