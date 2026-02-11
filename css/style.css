@@ -52,7 +52,7 @@ nav li a:hover {
 
 /* Resume Body CSS */
 #about-info {
-  background-image: url("../images/gradient_back.jpg");
+  background-image: url("../images/red-purple-gradient-back.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -120,7 +120,7 @@ ul li {
 
 /* Index section styling */
 #main-about {
-	background-image: url("../images/tech_image.jpg");
+	background-image: url("../images/orange-gradient-back.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
